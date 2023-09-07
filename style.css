@@ -26,9 +26,8 @@ img {
 }
 
 [data-testid="slackUserName"] {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
-    margin: 10px 0px;
     color: #333;
 }
 

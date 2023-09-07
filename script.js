@@ -1,5 +1,4 @@
 // Current Day Displayed
-
 const currentDate = new Date();
 
 const daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
