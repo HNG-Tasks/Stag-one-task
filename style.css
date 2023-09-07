@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    max-width: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+}
+
+[data-testid="slackUserName"] {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #333;
+}
+
+[data-testid="currentDayOfTheWeek"] {
+    color: #666;
+}
+
+[data-testid="currentUTCTime"] {
+    font-size: 18px;
+    color: #007bff;
+}
+
+[data-testid="myTrack"] {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+[data-testid="githubURL"] {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #333;
+}
+
+[data-testid="githubURL"]:hover {
+    color: #ff5733;
+}
+
+/* Medai Query */
+@media (max-width: 768px){
+    [data-testid="slackUserName"] {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    [data-testid="slackUserName"] {
+        font-size: 18px;
+    }
+}
