@@ -14,6 +14,6 @@ currentDayElement.textContent = `Current Day of the Week: ${currentDayName}`;
 // Current Time Displayed
 const currentUTCTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
 
-const currentUTCTime = currentDate.toISOString().substr(11, 8);
+const currentUTCTime = currentDate.getTime();
 
 currentUTCTimeElement.textContent = `Current UTC Time: ${currentUTCTime}`;
